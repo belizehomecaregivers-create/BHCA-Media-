@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sasha Eiley — Media & Advocacy Record | BHCA</title>
+<meta property="og:title" content="Sasha Eiley — Media & Advocacy Record | BHCA">
+<meta property="og:description" content="Fifteen years of elder advocacy, media coverage, awards and community action by the Belize Home Caregivers Association.">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--teal:#1A7A6E;--teal-dark:#0F5248;--teal-light:#E8F4F2;--gold:#C8A84B;--gold-light:#FDF6E3;--dark:#1C2B2A;--gray:#F7F7F5;--mid:#888;--white:#fff}
+body{font-family:'Inter',sans-serif;background:var(--gray);color:var(--dark);line-height:1.6}
+.hero{background:var(--teal-dark);padding:60px 24px 48px;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:-60px;left:-60px;width:300px;height:300px;border-radius:50%;background:rgba(200,168,75,0.08);pointer-events:none}
+.hero-eyebrow{font-size:11px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:16px}
+.hero h1{font-family:'Playfair Display',serif;font-size:clamp(36px,6vw,60px);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:12px}
+.hero-sub{font-size:15px;color:rgba(255,255,255,.7);max-width:560px;margin:0 auto 32px}
+.hero-stats{display:flex;justify-content:center;gap:32px;flex-wrap:wrap}
+.stat{text-align:center}
+.stat-num{font-family:'Playfair Display',serif;font-size:32px;font-weight:700;color:var(--gold);line-height:1}
+.stat-label{font-size:11px;color:rgba(255,255,255,.6);text-transform:uppercase;letter-spacing:.1em;margin-top:4px}
+.gold-bar{height:4px;background:linear-gradient(90deg,var(--gold),#e8c96e,var(--gold))}
+.container{max-width:900px;margin:0 auto;padding:0 24px}
+.section-header{padding:48px 0 8px;display:flex;align-items:center;gap:16px}
+.section-header h2{font-family:'Playfair Display',serif;font-size:26px;font-weight:700;color:var(--teal);white-space:nowrap}
+.section-line{flex:1;height:1px;background:linear-gradient(90deg,var(--gold),transparent)}
+.timeline{padding:24px 0 8px}
+.tl-row{display:flex;gap:0;margin-bottom:2px}
+.tl-year{width:76px;flex-shrink:0;background:var(--teal);color:var(--white);font-family:'Playfair Display',serif;font-size:18px;font-weight:700;display:flex;align-items:center;justify-content:center;padding:14px 6px}
+.tl-content{flex:1;background:var(--teal-light);padding:12px 18px;border-left:3px solid var(--gold)}
+.tl-item{font-size:13px;color:var(--dark);padding:3px 0 3px 14px;position:relative}
+.tl-item::before{content:'▸';position:absolute;left:0;color:var(--teal);font-size:11px;top:4px}
+.cards{padding:24px 0 48px;display:flex;flex-direction:column;gap:20px}
+.card{background:var(--white);border-radius:10px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.06);transition:box-shadow .2s}
+.card:hover{box-shadow:0 4px 16px rgba(0,0,0,.1)}
+.card-header{display:flex;align-items:stretch}
+.card-type-bar{width:6px;flex-shrink:0}
+.card-meta{flex:1;padding:16px 18px 12px;border-bottom:1px solid #F0F0EE;display:flex;align-items:flex-start;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.card-outlet{font-size:12px;font-weight:600;color:var(--teal);text-transform:uppercase;letter-spacing:.05em}
+.card-date{font-size:11px;color:var(--mid);margin-top:2px}
+.type-badge{font-size:11px;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;flex-shrink:0}
+.card-body{padding:16px 18px}
+.card-headline{font-family:'Playfair Display',serif;font-size:17px;font-weight:700;color:var(--dark);line-height:1.3;margin-bottom:8px}
+.card-summary{font-size:13px;color:#444;line-height:1.65;margin-bottom:12px}
+.card-quote{background:var(--gold-light);border-left:3px solid var(--gold);padding:10px 14px;font-size:12.5px;font-style:italic;color:var(--dark);line-height:1.6;margin-bottom:12px;border-radius:0 6px 6px 0}
+.card-quote cite{display:block;font-style:normal;font-size:11px;color:var(--mid);margin-top:5px;font-weight:500}
+.card-footer{padding:10px 18px;border-top:1px solid #F0F0EE;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.card-source{font-size:11px;color:var(--mid)}
+.card-link{display:inline-flex;align-items:center;gap:5px;background:var(--teal);color:var(--white);font-size:12px;font-weight:600;padding:6px 14px;border-radius:20px;text-decoration:none;transition:background .2s}
+.card-link:hover{background:var(--teal-dark)}
+.card-link svg{width:11px;height:11px}
+.type-tv{background:#E8F4F2;color:#0F6E56}.bar-tv{background:#1D9E75}
+.type-radio{background:#E1F5EE;color:#085041}.bar-radio{background:#0F6E56}
+.type-print{background:#E6F1FB;color:#185FA5}.bar-print{background:#185FA5}
+.type-award{background:#FDF6E3;color:#854F0B}.bar-award{background:#C8A84B}
+.type-petition{background:#FAEEDA;color:#854F0B}.bar-petition{background:#EF9F27}
+.type-social{background:#EEEDFE;color:#3C3489}.bar-social{background:#534AB7}
+.type-partner{background:#E8F4F2;color:#0F5248}.bar-partner{background:#1A7A6E}
+.themes{padding:8px 0 56px}
+.themes-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.theme-card{background:var(--white);border-radius:10px;padding:16px 18px;border-top:3px solid var(--teal)}
+.theme-title{font-size:12px;font-weight:700;color:var(--teal);text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px}
+.theme-desc{font-size:13px;color:#444;line-height:1.55}
+footer{background:var(--teal-dark);color:rgba(255,255,255,.6);text-align:center;padding:28px 24px;font-size:12px}
+footer strong{color:var(--gold)}
+@media(max-width:600px){.hero-stats{gap:20px}.themes-grid{grid-template-columns:1fr}.tl-year{width:58px;font-size:15px}.card-headline{font-size:15px}}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="hero-eyebrow">Belize Home Caregivers Association</div>
+  <h1>Sasha Eiley</h1>
+  <p class="hero-sub">CEO & Founder — Fifteen years of elder advocacy, caregiving reform, awards, and community action in Belize.</p>
+  <div class="hero-stats">
+    <div class="stat"><div class="stat-num">2010</div><div class="stat-label">Founded BHCA</div></div>
+    <div class="stat"><div class="stat-num">14</div><div class="stat-label">Media & Milestones</div></div>
+    <div class="stat"><div class="stat-num">503+</div><div class="stat-label">Petition Signatures</div></div>
+    <div class="stat"><div class="stat-num">6K+</div><div class="stat-label">Facebook Followers</div></div>
+    <div class="stat"><div class="stat-num">100+</div><div class="stat-label">Certified Caregivers</div></div>
+  </div>
+</div>
+<div class="gold-bar"></div>
+
+<div class="container">
+
+  <div class="section-header"><h2>Advocacy Timeline</h2><div class="section-line"></div></div>
+  <div class="timeline">
+    <div class="tl-row"><div class="tl-year">2010</div><div class="tl-content">
+      <div class="tl-item">Founded BHCA in January 2010 — Facebook page launched as founding platform</div>
+      <div class="tl-item">Began research and building key partnerships before public launch</div>
+    </div></div>
+    <div class="tl-row"><div class="tl-year">2016</div><div class="tl-content">
+      <div class="tl-item">Won Belize Emprende Fund Award — BELTRAIDE, CENPROMYPE & Republic of China (Taiwan)</div>
+      <div class="tl-item">Sasha discharged herself from hospital with pneumonia to collect the award</div>
+    </div></div>
+    <div class="tl-row"><div class="tl-year">2017</div><div class="tl-content">
+      <div class="tl-item">Officially launched BHCA on Krem Web — Belize's leading online radio platform</div>
+      <div class="tl-item">Appeared on Wake Up Belize Morning Show (KREM TV) — first televised interview</div>
+      <div class="tl-item">Confirmed as #1 homecare provider with 100+ certified caregivers; only Special Needs Nanny provider in Belize</div>
+    </div></div>
+    <div class="tl-row"><div class="tl-year">2018</div><div class="tl-content">
+      <div class="tl-item">Featured on Channel 5 Belize — national TV coverage of BHCA</div>
+    </div></div>
+    <div class="tl-row"><div class="tl-year">2020</div><div class="tl-content">
+      <div class="tl-item">Soap Drive for the Elderly — one of Belize's first COVID-19 community responses</div>
+      <div class="tl-item">Covered by Breaking Belize News — 156 reactions, 7 shares</div>
+    </div></div>
+    <div class="tl-row"><div class="tl-year">2021</div><div class="tl-content">
+      <div class="tl-item">Won biggest award of her life — attended ceremony alone</div>
+      <div class="tl-item">Mandatory PAHO/WHO COVID training partnership with National Council on Ageing</div>
+      <div class="tl-item">BHCA × Grocery Nest diaspora grocery programme — Breaking Belize News coverage</div>
+      <div class="tl-item">Quoted on 7 News Belize on elder abuse and the urgent need for industry regulation</div>
+    </div></div>
+    <div class="tl-row"><div class="tl-year">2024</div><div class="tl-content">
+      <div class="tl-item">Presented BHCA Overview at National Conference on Ageing — Belize Biltmore Plaza</div>
+      <div class="tl-item">Keynote: "We don't need more elderly homes, we need more caregivers in homes!"</div>
+      <div class="tl-item">Recognized by Ladyville Highlights community page — 309+ reactions</div>
+    </div></div>
+    <div class="tl-row"><div class="tl-year">2025</div><div class="tl-content">
+      <div class="tl-item">Guest speaker at Belize Red Cross Caregivers Graduation — 28 graduates, first-ever 100% scorer</div>
+      <div class="tl-item">Change.org petition — "Regulate the Home Care Industry in Belize" — 503+ signatures</div>
+      <div class="tl-item">Mama Tona elder abuse advocacy — covered by Greater Belize Media, NCA engaged</div>
+    </div></div>
+  </div>
+
+  <div class="section-header"><h2>Media Coverage, Awards & Milestones</h2><div class="section-line"></div></div>
+  <div class="cards">
+
+    <div class="card"><div class="card-header"><div class="card-type-bar bar-tv"></div><div class="card-meta"><div><div class="card-outlet">Wake Up Belize Morning Show — KREM TV</div><div class="card-date">2017</div></div><span class="type-badge type-tv">📺 TV Interview</span></div></div>
+    <div class="card-body"><div class="card-headline">BHCA Launch Interview on Wake Up Belize</div>
+    <p class="card-summary">Sasha Eiley appeared on the Wake Up Belize Morning Show on KREM TV for BHCA's official public launch. This was the first televised interview for BHCA, introducing the organization's mission to a national morning audience. Sasha had also been offered the role of WUB host around this time, which she had to decline due to other commitments.</p>
+    <div class="card-quote">"BHCA 2017 Interview on the WUB Morning Show." <cite>— Sasha Eiley, October 2020 (flashback post)</cite></div></div>
+    <div class="card-footer"><span class="card-source">Source: BHCA Facebook Page</span><a class="card-link" href="https://www.facebook.com/p/Belize-Home-Caregivers-Association-100064021213011/" target="_blank">View Page <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></div></div>
+
+    <div class="card"><div class="card-header"><div class="card-type-bar bar-tv"></div><div class="card-meta"><div><div class="card-outlet">Channel 5 Belize — Great Belize Television</div><div class="card-date">October 2, 2018</div></div><span class="type-badge type-tv">📺 TV Feature</span></div></div>
+    <div class="card-body"><div class="card-headline">The Belize Home Caregivers Association</div>
+    <p class="card-summary">Channel 5 Belize aired a national television feature on BHCA, also shared by Open Your Eyes Belize. The segment presented BHCA's mission to professionalize home caregiving in Belize, building on the organization's foundation since January 2010 and its 2017 Krem Web launch.</p>
+    <div class="card-quote">"The Belize Home Caregivers Association is the brainchild of Sasha Eiley." <cite>— Channel 5 Belize, October 2018</cite></div></div>
+    <div class="card-footer"><span class="card-source">Source: Channel 5 / YouTube</span><a class="card-link" href="https://www.youtube.com/watch?v=2NywW2wNqe0" target="_blank">Watch Clip <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></div></div>
+
+    <div class="card"><div class="card-header"><div class="card-type-bar bar-award"></div><div class="card-meta"><div><div class="card-outlet">BELTRAIDE & CENPROMYPE — Belize Emprende Fund</div><div class="card-date">2016</div></div><span class="type-badge type-award">🏆 National Award</span></div></div>
+    <div class="card-body"><div class="card-headline">BHCA Wins Belize Emprende Fund — Supported by Republic of China (Taiwan)</div>
+    <p class="card-summary">BHCA was selected as the winning venture of the Belize Emprende Fund, awarded by BELTRAIDE and CENPROMYPE with the support of the Republic of China (Taiwan). Sasha discharged herself from hospital while suffering from pneumonia to present and receive the award — attending the ceremony alone, heplock still in her arm. She was rushed back to hospital immediately afterward.</p>
+    <div class="card-quote">"A poor 22 year old woman with no status from the ghetto trying to create an entire industry... I had pneumonia. I remember entering the room with my heplock still in arm. Drugged up, coughing, lungs burning — I still pushed through." <cite>— Sasha Eiley, December 2019</cite></div></div>
+    <div class="card-footer"><span class="card-source">Source: Sasha N Eiley / Facebook</span></div></div>
+
+    <div class="card"><div class="card-header"><div class="card-type-bar bar-award"></div><div class="card-meta"><div><div class="card-outlet">Personal Award Recognition — Sasha N Eiley</div><div class="card-date">November 3, 2021</div></div><span class="type-badge type-award">🏆 Award</span></div></div>
+    <div class="card-body"><div class="card-headline">Biggest Award Win of Her Life — Attended Alone</div>
+    <p class="card-summary">Sasha publicly shared winning the biggest award of her life in November 2021, noting she attended without family or support present. The post received 105 reactions and captured the deeply personal journey of building BHCA — a mission driven entirely by individual resolve and community online support.</p>
+    <div class="card-quote">"That one time I won the biggest award of my life and was the only one without family/support present... I'm grateful for my FB friends who have been with me & BHCA on this journey." <cite>— Sasha N Eiley, November 2021</cite></div></div>
+    <div class="card-footer"><span class="card-source">Source: Sasha N Eiley / Facebook</span></div></div>
+
+    <div class="card"><div class="card-header"><div class="card-type-bar bar-print"></div><div class="card-meta"><div><div class="card-outlet">Breaking Belize News</div><div class="card-date">March 16, 2020</div></div><span class="type-badge type-print">📰 News Coverage</span></div></div>
+    <div class="card-body"><div class="card-headline">BHCA Hosts Soap Drive for Elderly — One of Belize's First COVID-19 Responses</div>
+    <p class="card-summary">Breaking Belize News covered BHCA's Soap Drive for the Elderly, launched proactively at the very start of the COVID-19 pandemic. The article received 156 reactions and 7 shares — demonstrating strong public recognition of BHCA's rapid mobilization before most organizations had responded.</p>
+    <div class="card-quote">"A little soap could be all it takes to provide someone with a FRESH outlook on life — taking a pro-active approach to combat the COVID-19 Pandemic." <cite>— BHCA Soap Drive, March 2020</cite></div></div>
+    <div class="card-footer"><span class="card-source">Source: breakingbelizenews.com</span><a class="card-link" href="https://www.breakingbelizenews.com" target="_blank">Visit Site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></div></div>
+
+    <div class="card"><div class="card-header"><div class="card-type-bar bar-partner"></div><div class="card-meta"><div><div class="card-outlet">BHCA — NCA & PAHO/WHO Partnership</div><div class="card-date">February 2021</div></div><span class="type-badge type-partner">🤝 Partnership</span></div></div>
+    <div class="card-body"><div class="card-headline">Mandatory COVID-19 Training for BHCA Caregivers — NCA & PAHO/WHO</div>
+    <p class="card-summary">BHCA partnered with the National Council on Ageing (NCA) and PAHO/WHO to make COVID-19 Infection Protection training mandatory for all registered BHCA caregivers. The free virtual training ran February 16–17, 2021 and demonstrated BHCA's formal standing as a recognized caregiver organization working alongside international health institutions.</p>
+    <div class="card-quote">"Please note this is a mandatory training session for registered BHCA Caregivers." <cite>— BHCA Facebook, February 2021</cite></div></div>
+    <div class="card-footer"><span class="card-source">Source: BHCA Facebook Page</span></div></div>
+
+    <div class="card"><div class="card-header"><div class="card-type-bar bar-print"></div><div class="card-meta"><div><div class="card-outlet">Breaking Belize News</div><div class="card-date">June 16, 2021</div></div><span class="type-badge type-print">📰 News Coverage</span></div></div>
+    <div class="card-body"><div class="card-headline">BHCA Secures Groceries for the Elderly Through Private Sector Partnership</div>
+    <p class="card-summary">Breaking Belize News covered BHCA's partnership with Grocery Nest — a diaspora-funded grocery programme for elderly Belizeans hit hardest by COVID-19. Launched with 10–15 sponsored recipients selected through churches, it allowed overseas Belizeans to purchase and deliver groceries digitally. Developed in collaboration with the NCA and a nutritionist.</p>
+    <div class="card-quote">"You have situations where everyone shows up on granny's birthday because she turned 90, and they're loving and take pictures — and granny doesn't see them again until she's 95." <cite>— Sasha Eiley, June 2021</cite></div></div>
+    <div class="card-footer"><span class="card-source">Source: breakingbelizenews.com</span><a class="card-link" href="https://www.breakingbelizenews.com/2021/06/16/belize-home-caregivers-association-secures-groceries-for-the-elderly-through-private-sector-partnership/" target="_blank">Read Article <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></div></div>
+
+    <div class="card"><div class="card-header"><div class="card-type-bar bar-tv"></div><div class="card-meta"><div><div class="card-outlet">7 News Belize — Tropical Vision Limited</div><div class="card-date">2021</div></div><span class="type-badge type-tv">📺 TV Interview</span></div></div>
+    <div class="card-body"><div class="card-headline">Elder Abuse, Dementia & the Case for Regulating Caregiving in Belize</div>
+    <p class="card-summary">7 News Belize interviewed Sasha on the link between unregulated caregiving and elder abuse, highlighting that Alzheimer's and dementia patients are most vulnerable. She called for formal industry regulation to protect Belize's most at-risk seniors.</p>
+    <div class="card-quote">"Whenever there is a case about elder abuse, 99% it is Alzheimer and dementia patients... I find that dementia and Alzheimer patients are more vulnerable and they are high on the list of being abused." <cite>— Sasha Eiley, 7 News Belize, 2021</cite></div></div>
+    <div class="card-footer"><span class="card-source">Source: 7newsbelize.com</span><a class="card-link" href="https://7newsbelize.com/sstory.php?nid=75817" target="_blank">Read Article <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></div></div>
+
+    <div class="card"><div class="card-header"><div class="card-type-bar bar-tv"></div><div class="card-meta"><div><div class="card-outlet">National Conference on Ageing 2024 — Belize Biltmore Plaza</div><div class="card-date">October 17, 2024</div></div><span class="type-badge type-tv">🎤 Conference Speaker</span></div></div>
+    <div class="card-body"><div class="card-headline">BHCA Presents at National Conference on Ageing 2024</div>
+    <p class="card-summary">Sasha Eiley delivered the BHCA Overview at the National Conference on Ageing 2024, covering BHCA's membership, services, elder care definition, and support resources for families and caregivers. She also gave a keynote address to national aging sector stakeholders — delivering one of her most powerful lines on record.</p>
+    <div class="card-quote">"We don't need more elderly homes, we need more caregivers in homes!" <cite>— Sasha Eiley, National Conference on Ageing, October 17, 2024</cite></div></div>
+    <div class="card-footer"><span class="card-source">Source: BHCA Facebook Page</span><a class="card-link" href="https://www.facebook.com/p/Belize-Home-Caregivers-Association-100064021213011/" target="_blank">View Post <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></div></div>
+
+    <div class="card"><div class="card-header"><div class="card-type-bar bar-social"></div><div class="card-meta"><div><div class="card-outlet">Ladyville Highlights — Community Facebook Page</div><div class="card-date">October 17, 2024</div></div><span class="type-badge type-social">📱 Community Recognition</span></div></div>
+    <div class="card-body"><div class="card-headline">Community Recognition: "Founder President of Home Health Caregivers Association of Belize"</div>
+    <p class="card-summary">The Ladyville Highlights community Facebook page publicly named and recognized Sasha Eiley as "Founder President" of BHCA. The post received 309+ reactions and 2 shares — representing organic, third-party community recognition of Sasha's leadership in the national elder care space.</p>
+    <div class="card-quote">"Ms. Sasha Eiley Founder President of Home Health Caregivers Association of Belize." <cite>— Ladyville Highlights, October 17, 2024</cite></div></div>
+    <div class="card-footer"><span class="card-source">Source: Ladyville Highlights / Facebook</span></div></div>
+
+    <div class="card"><div class="card-header"><div class="card-type-bar bar-partner"></div><div class="card-meta"><div><div class="card-outlet">Belize Red Cross Society — Caregiver Graduation</div><div class="card-date">March 22, 2025</div></div><span class="type-badge type-partner">🤝 Guest Speaker</span></div></div>
+    <div class="card-body"><div class="card-headline">Guest Speaker at Belize Red Cross Caregivers Graduation — 28 Graduates</div>
+    <p class="card-summary">Sasha Eiley was honored as guest speaker at the Belize Red Cross Caregivers Graduation Ceremony, celebrating 28 newly certified caregivers — including the first-ever graduate to achieve a perfect 100% score. Sasha acknowledged BHCA's years of collaboration with the Red Cross and the evolution of the curriculum to also prepare caregivers for careers as nurse's aides.</p>
+    <div class="card-quote">"It was truly an honor to be the guest speaker... The Red Cross continues to set high standards in training, and I am grateful for the years of collaboration." <cite>— Sasha Eiley, March 22, 2025</cite></div></div>
+    <div class="card-footer"><span class="card-source">Source: BHCA Facebook — Redcross 2025 Graduates album</span><a class="card-link" href="https://www.facebook.com/p/Belize-Home-Caregivers-Association-100064021213011/" target="_blank">View Page <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></div></div>
+
+    <div class="card"><div class="card-header"><div class="card-type-bar bar-petition"></div><div class="card-meta"><div><div class="card-outlet">Change.org — National Petition</div><div class="card-date">October 2025 — Ongoing</div></div><span class="type-badge type-petition">✊ Petition</span></div></div>
+    <div class="card-body"><div class="card-headline">Regulate the Home Care Industry in Belize — 503+ Signatures</div>
+    <p class="card-summary">BHCA launched a national petition calling for formal regulation of the home caregiving industry, citing doubled post-COVID complaints, unqualified certifications, and the need for mandatory background checks and professional standards.</p>
+    <div class="card-quote">"Caregiving is a profession that deserves respect, standards, and professionalism." <cite>— BHCA Petition, Change.org, 2025</cite></div></div>
+    <div class="card-footer"><span class="card-source">Source: change.org</span><a class="card-link" href="https://www.change.org/p/regulate-the-home-care-industry-in-belize" target="_blank">View Petition <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></div></div>
+
+    <div class="card"><div class="card-header"><div class="card-type-bar bar-print"></div><div class="card-meta"><div><div class="card-outlet">Greater Belize Media — Channel 5 / News 5</div><div class="card-date">July 5, 2025</div></div><span class="type-badge type-print">📰 News Coverage</span></div></div>
+    <div class="card-body"><div class="card-headline">Systemic Elder Abuse Alleged — BHCA Advocates for Mama Tona</div>
+    <p class="card-summary">Greater Belize Media covered BHCA's campaign for "Mama Tona," an 84-year-old who suffered a stroke after being repeatedly required to travel to Belize City to defend her land in court. The family spent over $12,000 complying with court demands. BHCA's advocacy prompted the NCA (via Justice Moore) to investigate.</p>
+    <div class="card-quote">"This is not just a land dispute; it is elder abuse. This is bullying." <cite>— BHCA Statement, July 2025</cite></div></div>
+    <div class="card-footer"><span class="card-source">Source: greaterbelize.com</span><a class="card-link" href="https://www.greaterbelize.com/1systemic-elder-abuse-alleged-in-land-dispute-case/" target="_blank">Read Article <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></div></div>
+
+    <div class="card"><div class="card-header"><div class="card-type-bar bar-social"></div><div class="card-meta"><div><div class="card-outlet">BHCA Official Facebook Page</div><div class="card-date">January 2010 — Present</div></div><span class="type-badge type-social">📱 Founding Platform</span></div></div>
+    <div class="card-body"><div class="card-headline">6,000+ Followers, 1,800+ Posts — Belize's Elder Care Community Hub</div>
+    <p class="card-summary">BHCA's Facebook page is the organization's founding platform since January 2010. With 6,000+ followers and 1,800+ posts, it hosts advocacy campaigns, COVID initiatives, caregiver content, dementia education, and real-time case updates. As Sasha confirmed in 2019: BHCA is the #1 homecare provider in Belize with 100+ certified caregivers and the only Special Needs Nanny provider in the country.</p>
+    <div class="card-quote">"I started Belize Home Caregivers Association in Jan of 2010. BUT ONLY ONE ASSOCIATION — you can't duplicate an association." <cite>— Sasha N Eiley, November 2019</cite></div></div>
+    <div class="card-footer"><span class="card-source">Source: Facebook</span><a class="card-link" href="https://www.facebook.com/p/Belize-Home-Caregivers-Association-100064021213011/" target="_blank">Visit Page <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></div></div>
+
+  </div>
+
+  <div class="section-header"><h2>Key Advocacy Themes</h2><div class="section-line"></div></div>
+  <div class="themes">
+    <div class="themes-grid">
+      <div class="theme-card"><div class="theme-title">Industry Regulation</div><div class="theme-desc">National petition (503+ signatures), TV interviews, and public calls for mandatory screening and government oversight of caregiving in Belize.</div></div>
+      <div class="theme-card"><div class="theme-title">Elder Abuse Prevention</div><div class="theme-desc">Mama Tona campaign; dementia patient vulnerability advocacy; pushed NCA and judicial intervention; raised national awareness on elder rights.</div></div>
+      <div class="theme-card"><div class="theme-title">Economic Support for Elderly</div><div class="theme-desc">Soap Drive (2020) and Grocery Nest diaspora programme (2021) — two community-led initiatives responding directly to elderly poverty in Belize.</div></div>
+      <div class="theme-card"><div class="theme-title">Government & Institutional Engagement</div><div class="theme-desc">Presented at National Conference on Ageing 2024; PAHO/WHO & NCA training partnerships; Belize Emprende Fund winner; Red Cross collaboration.</div></div>
+      <div class="theme-card" style="grid-column:1/-1"><div class="theme-title">Caregiver Professionalization</div><div class="theme-desc">Founded 2010; launched publicly 2017; grew to 100+ certified caregivers and the only Special Needs Nanny provider in Belize; currently developing wound care and CNA training programmes to set professional standards for Belize's entire caregiving industry.</div></div>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <strong>Belize Home Caregivers Association</strong> &nbsp;|&nbsp; belizehomecaregivers.com &nbsp;|&nbsp; CEO & Founder: Sasha Eiley<br>
+  <span style="margin-top:6px;display:block;">Media Portfolio compiled June 2026 &nbsp;·&nbsp; All sources linked and verified</span>
+</footer>
+</body>
+</html>
